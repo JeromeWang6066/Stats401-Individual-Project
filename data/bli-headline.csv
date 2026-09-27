@@ -1,0 +1,320 @@
+country,dimension,indicator,unit,year,value,higher_is_better
+Australia,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,50629,1
+Australia,Housing,Housing cost overburden,Percentage of population,2021,13.8304620981,0
+Australia,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,80.427,1
+Australia,Work-life balance,Long hours in paid work,Percentage of employees,2025,9.68,0
+Australia,Health,Life expectancy at birth,Years,2023,83,1
+Australia,Knowledge and skills,Student mathematics skills,Points,2022,487.08,1
+Australia,Social connections,Social support,Percentage of population aged 15 years or over,2025,89.7168215024,1
+Australia,Civic engagement,Voter turnout,Percentage of votes,2025,90.67,1
+Australia,Environmental quality,Exposure to air pollution,Percentage of population,2020,98.969398,0
+Australia,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,65.8417458675,1
+Australia,Subjective well-being,Life satisfaction,0-10 scale,2020,7.2,1
+Austria,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,53375,1
+Austria,Housing,Housing cost overburden,Percentage of population,2024,11.0668577254,0
+Austria,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,78.608,1
+Austria,Work-life balance,Long hours in paid work,Percentage of employees,2025,4.04,0
+Austria,Health,Life expectancy at birth,Years,2023,81.9,1
+Austria,Knowledge and skills,Student mathematics skills,Points,2022,487.27,1
+Austria,Social connections,Social support,Percentage of population aged 15 years or over,2025,88.940864654,1
+Austria,Civic engagement,Voter turnout,Percentage of votes,2024,76.25,1
+Austria,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.986313,0
+Austria,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,82.99193822,1
+Austria,Subjective well-being,Life satisfaction,0-10 scale,2025,7.7,1
+Belgium,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,50771,1
+Belgium,Housing,Housing cost overburden,Percentage of population,2024,12.5671491027,0
+Belgium,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,76.261,1
+Belgium,Work-life balance,Long hours in paid work,Percentage of employees,2025,3.81,0
+Belgium,Health,Life expectancy at birth,Years,2023,82.5,1
+Belgium,Knowledge and skills,Student mathematics skills,Points,2022,489.49,1
+Belgium,Social connections,Social support,Percentage of population aged 15 years or over,2025,90.52408524,1
+Belgium,Civic engagement,Voter turnout,Percentage of votes,2024,87.42,1
+Belgium,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.962547,0
+Belgium,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,71.6434840288,1
+Belgium,Subjective well-being,Life satisfaction,0-10 scale,2025,7.6,1
+Canada,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,44161,1
+Canada,Housing,Housing cost overburden,Percentage of population,2022,23.8381132483,0
+Canada,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,78.799,1
+Canada,Work-life balance,Long hours in paid work,Percentage of employees,2025,3.13,0
+Canada,Health,Life expectancy at birth,Years,2023,81.7,1
+Canada,Knowledge and skills,Student mathematics skills,Points,2022,496.95,1
+Canada,Social connections,Social support,Percentage of population aged 15 years or over,2025,90.6355243505,1
+Canada,Civic engagement,Voter turnout,Percentage of votes,2025,68.7,1
+Canada,Environmental quality,Exposure to air pollution,Percentage of population,2020,80.808914,0
+Canada,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,74.6273912148,1
+Canada,Subjective well-being,Life satisfaction,0-10 scale,2023,7.4,1
+Czechia,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,39673,1
+Czechia,Housing,Housing cost overburden,Percentage of population,2024,6.4140506089,0
+Czechia,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,86.176,1
+Czechia,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.88,0
+Czechia,Health,Life expectancy at birth,Years,2023,79.9,1
+Czechia,Knowledge and skills,Student mathematics skills,Points,2022,487,1
+Czechia,Social connections,Social support,Percentage of population aged 15 years or over,2025,92.7349478297,1
+Czechia,Civic engagement,Voter turnout,Percentage of votes,2023,70.25,1
+Czechia,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.999008,0
+Czechia,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,74.7593740793,1
+Czechia,Subjective well-being,Life satisfaction,0-10 scale,2025,7.4,1
+Denmark,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,45453,1
+Denmark,Housing,Housing cost overburden,Percentage of population,2024,24.0501314402,0
+Denmark,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,80.943,1
+Denmark,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.42,0
+Denmark,Health,Life expectancy at birth,Years,2023,81.8,1
+Denmark,Knowledge and skills,Student mathematics skills,Points,2022,489.27,1
+Denmark,Social connections,Social support,Percentage of population aged 15 years or over,2025,94.6004865845,1
+Denmark,Civic engagement,Voter turnout,Percentage of votes,2026,83.99,1
+Denmark,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.152756,0
+Denmark,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,88.0166820968,1
+Denmark,Subjective well-being,Life satisfaction,0-10 scale,2025,7.7,1
+Estonia,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,32159,1
+Estonia,Housing,Housing cost overburden,Percentage of population,2024,19.1749289632,0
+Estonia,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,83.567,1
+Estonia,Work-life balance,Long hours in paid work,Percentage of employees,2025,1.59,0
+Estonia,Health,Life expectancy at birth,Years,2023,79.1,1
+Estonia,Knowledge and skills,Student mathematics skills,Points,2022,509.95,1
+Estonia,Social connections,Social support,Percentage of population aged 15 years or over,2025,92.8336299482,1
+Estonia,Civic engagement,Voter turnout,Percentage of votes,2023,63.53,1
+Estonia,Environmental quality,Exposure to air pollution,Percentage of population,2020,89.127632,0
+Estonia,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,82.527144757,1
+Estonia,Subjective well-being,Life satisfaction,0-10 scale,2025,7.3,1
+Finland,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,44400,1
+Finland,Housing,Housing cost overburden,Percentage of population,2024,19.6654945612,0
+Finland,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,78.312,1
+Finland,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.58,0
+Finland,Health,Life expectancy at birth,Years,2023,81.6,1
+Finland,Knowledge and skills,Student mathematics skills,Points,2022,484.14,1
+Finland,Social connections,Social support,Percentage of population aged 15 years or over,2025,94.7500546624,1
+Finland,Civic engagement,Voter turnout,Percentage of votes,2024,71.55,1
+Finland,Environmental quality,Exposure to air pollution,Percentage of population,2020,47.847252,0
+Finland,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,85.5678167589,1
+Finland,Subjective well-being,Life satisfaction,0-10 scale,2025,7.8,1
+France,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,49616,1
+France,Housing,Housing cost overburden,Percentage of population,2024,10.6555074453,0
+France,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,77.65,1
+France,Work-life balance,Long hours in paid work,Percentage of employees,2025,5.89,0
+France,Health,Life expectancy at birth,Years,2023,83,1
+France,Knowledge and skills,Student mathematics skills,Points,2022,473.94,1
+France,Social connections,Social support,Percentage of population aged 15 years or over,2025,87.5632228029,1
+France,Civic engagement,Voter turnout,Percentage of votes,2022,73.69,1
+France,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.698296,0
+France,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,72.0198722306,1
+France,Subjective well-being,Life satisfaction,0-10 scale,2025,7.1,1
+Germany,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,55240,1
+Germany,Housing,Housing cost overburden,Percentage of population,2024,9.3845210969,0
+Germany,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,82.108,1
+Germany,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.82,0
+Germany,Health,Life expectancy at birth,Years,2023,81.1,1
+Germany,Knowledge and skills,Student mathematics skills,Points,2022,474.83,1
+Germany,Social connections,Social support,Percentage of population aged 15 years or over,2025,89.5684578561,1
+Germany,Civic engagement,Voter turnout,Percentage of votes,2025,82.54,1
+Germany,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.981361,0
+Germany,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,76.1497021909,1
+Germany,Subjective well-being,Life satisfaction,0-10 scale,2025,7,1
+Greece,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,31558,1
+Greece,Housing,Housing cost overburden,Percentage of population,2024,26.0198384523,0
+Greece,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,73.475,1
+Greece,Work-life balance,Long hours in paid work,Percentage of employees,2025,3.07,0
+Greece,Health,Life expectancy at birth,Years,2023,81.8,1
+Greece,Knowledge and skills,Student mathematics skills,Points,2022,430.15,1
+Greece,Social connections,Social support,Percentage of population aged 15 years or over,2025,81.1354159392,1
+Greece,Civic engagement,Voter turnout,Percentage of votes,2023,61.1,1
+Greece,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.6922,0
+Greece,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,63.1223873036,1
+Greece,Subjective well-being,Life satisfaction,0-10 scale,2025,6.9,1
+Hungary,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,35072,1
+Hungary,Housing,Housing cost overburden,Percentage of population,2023,30.2670329809,0
+Hungary,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,84.33,1
+Hungary,Work-life balance,Long hours in paid work,Percentage of employees,2025,1.54,0
+Hungary,Health,Life expectancy at birth,Years,2023,76.7,1
+Hungary,Knowledge and skills,Student mathematics skills,Points,2022,472.78,1
+Hungary,Social connections,Social support,Percentage of population aged 15 years or over,2025,94.068382961,1
+Hungary,Civic engagement,Voter turnout,Percentage of votes,2026,79.56,1
+Hungary,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.99736,0
+Hungary,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,72.6695150511,1
+Hungary,Subjective well-being,Life satisfaction,0-10 scale,2025,7.1,1
+Iceland,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,48710,1
+Iceland,Housing,Housing cost overburden,Percentage of population,2018,22.7227494121,0
+Iceland,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,86.218,1
+Iceland,Work-life balance,Long hours in paid work,Percentage of employees,2025,9.45,0
+Iceland,Health,Life expectancy at birth,Years,2023,82.4,1
+Iceland,Knowledge and skills,Student mathematics skills,Points,2022,458.91,1
+Iceland,Social connections,Social support,Percentage of population aged 15 years or over,2025,97.6618079188,1
+Iceland,Civic engagement,Voter turnout,Percentage of votes,2024,80.78,1
+Iceland,Environmental quality,Exposure to air pollution,Percentage of population,2020,67.655617,0
+Iceland,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,87.5796800417,1
+Iceland,Subjective well-being,Life satisfaction,0-10 scale,2018,8.1335416331,1
+Ireland,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,44283,1
+Ireland,Housing,Housing cost overburden,Percentage of population,2024,7.7079385519,0
+Ireland,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,82.26,1
+Ireland,Work-life balance,Long hours in paid work,Percentage of employees,2025,3.94,0
+Ireland,Health,Life expectancy at birth,Years,2023,82.9,1
+Ireland,Knowledge and skills,Student mathematics skills,Points,2022,491.65,1
+Ireland,Social connections,Social support,Percentage of population aged 15 years or over,2025,92.0035981729,1
+Ireland,Civic engagement,Voter turnout,Percentage of votes,2024,59.7,1
+Ireland,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.913719,0
+Ireland,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,74.493395216,1
+Ireland,Subjective well-being,Life satisfaction,0-10 scale,2025,7.6,1
+Italy,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,43491,1
+Italy,Housing,Housing cost overburden,Percentage of population,2024,9.7375869751,0
+Italy,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,70.853,1
+Italy,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.68,0
+Italy,Health,Life expectancy at birth,Years,2023,83.5,1
+Italy,Knowledge and skills,Student mathematics skills,Points,2022,471.26,1
+Italy,Social connections,Social support,Percentage of population aged 15 years or over,2025,86.2265978085,1
+Italy,Civic engagement,Voter turnout,Percentage of votes,2022,63.79,1
+Italy,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.09182,0
+Italy,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,63.5847117003,1
+Italy,Subjective well-being,Life satisfaction,0-10 scale,2025,7.1,1
+Latvia,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,29640,1
+Latvia,Housing,Housing cost overburden,Percentage of population,2024,3.7601865828,0
+Latvia,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,79.946,1
+Latvia,Work-life balance,Long hours in paid work,Percentage of employees,2025,0.65,0
+Latvia,Health,Life expectancy at birth,Years,2023,75.6,1
+Latvia,Knowledge and skills,Student mathematics skills,Points,2022,483.16,1
+Latvia,Social connections,Social support,Percentage of population aged 15 years or over,2025,92.1707588782,1
+Latvia,Civic engagement,Voter turnout,Percentage of votes,2022,59.43,1
+Latvia,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.856949,0
+Latvia,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,76.0423072345,1
+Latvia,Subjective well-being,Life satisfaction,0-10 scale,2025,6.9,1
+Lithuania,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,37704,1
+Lithuania,Housing,Housing cost overburden,Percentage of population,2024,13.4305119514,0
+Lithuania,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,81.733,1
+Lithuania,Work-life balance,Long hours in paid work,Percentage of employees,2025,0.89,0
+Lithuania,Health,Life expectancy at birth,Years,2023,77.6,1
+Lithuania,Knowledge and skills,Student mathematics skills,Points,2022,475.15,1
+Lithuania,Social connections,Social support,Percentage of population aged 15 years or over,2025,88.6730106023,1
+Lithuania,Civic engagement,Voter turnout,Percentage of votes,2024,59.95,1
+Lithuania,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.999443,0
+Lithuania,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,76.5086449477,1
+Lithuania,Subjective well-being,Life satisfaction,0-10 scale,2025,7.3,1
+Luxembourg,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,64376,1
+Luxembourg,Housing,Housing cost overburden,Percentage of population,2024,22.4799320102,0
+Luxembourg,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,77.432,1
+Luxembourg,Work-life balance,Long hours in paid work,Percentage of employees,2025,5.09,0
+Luxembourg,Health,Life expectancy at birth,Years,2023,83.4,1
+Luxembourg,Knowledge and skills,Student mathematics skills,Points,2018,483.4214850079,1
+Luxembourg,Social connections,Social support,Percentage of population aged 15 years or over,2025,88.6465488368,1
+Luxembourg,Civic engagement,Voter turnout,Percentage of votes,2023,87.18,1
+Luxembourg,Environmental quality,Exposure to air pollution,Percentage of population,2020,100,0
+Luxembourg,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,83.650047919,1
+Luxembourg,Subjective well-being,Life satisfaction,0-10 scale,2025,7.4,1
+Mexico,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,21536,1
+Mexico,Housing,Housing cost overburden,Percentage of population,2022,8.2564592361,0
+Mexico,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,70.537,1
+Mexico,Work-life balance,Long hours in paid work,Percentage of employees,2025,24.68,0
+Mexico,Health,Life expectancy at birth,Years,2024,75.5,1
+Mexico,Knowledge and skills,Student mathematics skills,Points,2022,395.03,1
+Mexico,Social connections,Social support,Percentage of population aged 15 years or over,2025,85.0023639293,1
+Mexico,Civic engagement,Voter turnout,Percentage of votes,2024,61.04,1
+Mexico,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.97541,0
+Mexico,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,46.9071207949,1
+Mexico,Subjective well-being,Life satisfaction,0-10 scale,2021,8.4487109972,1
+Netherlands,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,53163,1
+Netherlands,Housing,Housing cost overburden,Percentage of population,2024,7.526589185,0
+Netherlands,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,83.787,1
+Netherlands,Work-life balance,Long hours in paid work,Percentage of employees,2025,1.84,0
+Netherlands,Health,Life expectancy at birth,Years,2023,81.9,1
+Netherlands,Knowledge and skills,Student mathematics skills,Points,2022,492.68,1
+Netherlands,Social connections,Social support,Percentage of population aged 15 years or over,2025,90.8980225145,1
+Netherlands,Civic engagement,Voter turnout,Percentage of votes,2025,78.3,1
+Netherlands,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.40522,0
+Netherlands,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,81.5849925229,1
+Netherlands,Subjective well-being,Life satisfaction,0-10 scale,2025,7.6,1
+Norway,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2022,47497,1
+Norway,Housing,Housing cost overburden,Percentage of population,2024,17.1255543828,0
+Norway,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,80.732,1
+Norway,Work-life balance,Long hours in paid work,Percentage of employees,2025,4.14,0
+Norway,Health,Life expectancy at birth,Years,2023,83.1,1
+Norway,Knowledge and skills,Student mathematics skills,Points,2022,468.45,1
+Norway,Social connections,Social support,Percentage of population aged 15 years or over,2025,94.4459223301,1
+Norway,Civic engagement,Voter turnout,Percentage of votes,2025,80.12,1
+Norway,Environmental quality,Exposure to air pollution,Percentage of population,2020,70.573822,0
+Norway,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,90.7343910497,1
+Norway,Subjective well-being,Life satisfaction,0-10 scale,2025,7.7,1
+Poland,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,37601,1
+Poland,Housing,Housing cost overburden,Percentage of population,2024,12.9648625851,0
+Poland,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,81.174,1
+Poland,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.84,0
+Poland,Health,Life expectancy at birth,Years,2023,78.4,1
+Poland,Knowledge and skills,Student mathematics skills,Points,2022,488.96,1
+Poland,Social connections,Social support,Percentage of population aged 15 years or over,2025,87.6963056779,1
+Poland,Civic engagement,Voter turnout,Percentage of votes,2023,74.4,1
+Poland,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.893265,0
+Poland,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,68.6355752485,1
+Poland,Subjective well-being,Life satisfaction,0-10 scale,2025,7.7,1
+Portugal,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,38464,1
+Portugal,Housing,Housing cost overburden,Percentage of population,2024,27.4561047554,0
+Portugal,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,82.74,1
+Portugal,Work-life balance,Long hours in paid work,Percentage of employees,2025,6.48,0
+Portugal,Health,Life expectancy at birth,Years,2023,82.5,1
+Portugal,Knowledge and skills,Student mathematics skills,Points,2022,471.91,1
+Portugal,Social connections,Social support,Percentage of population aged 15 years or over,2025,87.8605125031,1
+Portugal,Civic engagement,Voter turnout,Percentage of votes,2025,58.23,1
+Portugal,Environmental quality,Exposure to air pollution,Percentage of population,2020,98.250084,0
+Portugal,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,78.7247648262,1
+Portugal,Subjective well-being,Life satisfaction,0-10 scale,2025,7.3,1
+Slovak Republic,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,33124,1
+Slovak Republic,Housing,Housing cost overburden,Percentage of population,2024,13.3528009057,0
+Slovak Republic,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,81.324,1
+Slovak Republic,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.65,0
+Slovak Republic,Health,Life expectancy at birth,Years,2023,78.2,1
+Slovak Republic,Knowledge and skills,Student mathematics skills,Points,2022,463.99,1
+Slovak Republic,Social connections,Social support,Percentage of population aged 15 years or over,2025,92.9138483163,1
+Slovak Republic,Civic engagement,Voter turnout,Percentage of votes,2023,68.52,1
+Slovak Republic,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.999847,0
+Slovak Republic,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,65.8445448084,1
+Slovak Republic,Subjective well-being,Life satisfaction,0-10 scale,2025,7.4,1
+Slovenia,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,38603,1
+Slovenia,Housing,Housing cost overburden,Percentage of population,2024,9.1812349856,0
+Slovenia,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,80.835,1
+Slovenia,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.04,0
+Slovenia,Health,Life expectancy at birth,Years,2023,82,1
+Slovenia,Knowledge and skills,Student mathematics skills,Points,2022,484.53,1
+Slovenia,Social connections,Social support,Percentage of population aged 15 years or over,2025,93.1240980356,1
+Slovenia,Civic engagement,Voter turnout,Percentage of votes,2026,69.26,1
+Slovenia,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.998161,0
+Slovenia,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,87.2639208553,1
+Slovenia,Subjective well-being,Life satisfaction,0-10 scale,2025,7.6,1
+Spain,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,42295,1
+Spain,Housing,Housing cost overburden,Percentage of population,2024,19.0612405539,0
+Spain,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,75.253,1
+Spain,Work-life balance,Long hours in paid work,Percentage of employees,2025,2.23,0
+Spain,Health,Life expectancy at birth,Years,2023,84,1
+Spain,Knowledge and skills,Student mathematics skills,Points,2022,473.14,1
+Spain,Social connections,Social support,Percentage of population aged 15 years or over,2025,91.7956404123,1
+Spain,Civic engagement,Voter turnout,Percentage of votes,2023,66.59,1
+Spain,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.207466,0
+Spain,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,80.966360951,1
+Spain,Subjective well-being,Life satisfaction,0-10 scale,2025,7.2,1
+Sweden,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2025,46440,1
+Sweden,Housing,Housing cost overburden,Percentage of population,2024,20.3742191195,0
+Sweden,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,83.944,1
+Sweden,Work-life balance,Long hours in paid work,Percentage of employees,2025,4.94,0
+Sweden,Health,Life expectancy at birth,Years,2023,83.4,1
+Sweden,Knowledge and skills,Student mathematics skills,Points,2022,481.77,1
+Sweden,Social connections,Social support,Percentage of population aged 15 years or over,2025,92.4612368204,1
+Sweden,Civic engagement,Voter turnout,Percentage of votes,2022,84.21,1
+Sweden,Environmental quality,Exposure to air pollution,Percentage of population,2020,73.017067,0
+Sweden,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,79.8366790158,1
+Sweden,Subjective well-being,Life satisfaction,0-10 scale,2025,7.4,1
+Switzerland,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2023,48940,1
+Switzerland,Housing,Housing cost overburden,Percentage of population,2023,16.92853719,0
+Switzerland,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,83.555,1
+Switzerland,Work-life balance,Long hours in paid work,Percentage of employees,2025,4.95,0
+Switzerland,Health,Life expectancy at birth,Years,2023,84.3,1
+Switzerland,Knowledge and skills,Student mathematics skills,Points,2022,507.99,1
+Switzerland,Social connections,Social support,Percentage of population aged 15 years or over,2025,90.9537429999,1
+Switzerland,Civic engagement,Voter turnout,Percentage of votes,2023,46.64,1
+Switzerland,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.711052,0
+Switzerland,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,88.2333366834,1
+Switzerland,Subjective well-being,Life satisfaction,0-10 scale,2024,7.7,1
+United Kingdom,Income and wealth,Household disposable income per capita,"US dollars per person, PPP converted",2024,46176,1
+United Kingdom,Housing,Housing cost overburden,Percentage of population,2022,18.5148343444,0
+United Kingdom,Work and job quality,Employment rate,Percentage of population aged 25-64 years,2025,80.169,1
+United Kingdom,Work-life balance,Long hours in paid work,Percentage of employees,2025,9.06,0
+United Kingdom,Health,Life expectancy at birth,Years,2023,81,1
+United Kingdom,Knowledge and skills,Student mathematics skills,Points,2022,488.98,1
+United Kingdom,Social connections,Social support,Percentage of population aged 15 years or over,2025,88.4881324799,1
+United Kingdom,Civic engagement,Voter turnout,Percentage of votes,2024,59.76,1
+United Kingdom,Environmental quality,Exposure to air pollution,Percentage of population,2020,99.12661,0
+United Kingdom,Safety,Feeling safe at night,Percentage of population aged 15 years or over,2025,74.3084419607,1
+United Kingdom,Subjective well-being,Life satisfaction,0-10 scale,2022,7.45,1

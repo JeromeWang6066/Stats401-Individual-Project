@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Visualization Critique and Redesign</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    html, body { height: auto; }
+
+    .doc {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px 16px 64px;
+    }
+
+    .doc > header h1 {
+      margin: 0 0 6px;
+      font-size: 34px;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+    }
+
+    .doc > header p {
+      margin: 0;
+      color: #5c6370;
+      font-size: 15px;
+    }
+
+    .doc-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 18px;
+      margin: 16px 0 0;
+    }
+
+    .doc-nav a {
+      color: #3b6fd8;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .doc-nav a:hover { text-decoration: underline; }
+
+    .card {
+      margin: 16px 0;
+      padding: 22px 24px;
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      letter-spacing: -0.01em;
+    }
+
+    .card h3 {
+      margin: 22px 0 6px;
+      font-size: 16px;
+    }
+
+    .card p,
+    .card li {
+      max-width: 52em;
+      font-size: 15px;
+      line-height: 1.65;
+      color: #2b2f36;
+    }
+
+    .card a { color: #3b6fd8; }
+
+    figure { margin: 14px 0 6px; }
+
+    figure img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid #e6e8ee;
+      border-radius: 12px;
+    }
+
+    figcaption {
+      margin-top: 8px;
+      color: #5c6370;
+      font-size: 13px;
+    }
+
+    .app {
+      height: auto;
+      min-height: 760px;
+      padding: 0;
+      align-items: stretch;
+    }
+
+    .chart-stack {
+      min-width: 0;
+      display: grid;
+      grid-template-rows: 620px auto;
+      min-height: 0;
+    }
+
+    .chart-stack .chart-panel {
+      min-height: 0;
+      height: 620px;
+    }
+
+    .profile-panel {
+      border-top: 1px solid #e6e8ee;
+      padding: 10px 12px 12px;
+    }
+
+    .profile-panel p {
+      margin: 0 0 8px;
+      color: #5c6370;
+      font-size: 13px;
+    }
+
+    #profile-chart {
+      width: 100%;
+      overflow: auto;
+    }
+
+    .refs { padding-left: 20px; }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.88em;
+      background: #f1f3f6;
+      border: 1px solid #e6e8ee;
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="doc">
+    <header>
+      <h1>Visualization Critique and Redesign</h1>
+      <p>STATS 401 individual project · Tianyao Wang</p>
+      <nav class="doc-nav">
+        <a href="#original">Original visualization</a>
+        <a href="#redesign">Redesign</a>
+        <a href="#sources">Data and references</a>
+        <a href="#report">Report</a>
+      </nav>
+    </header>
+
+    <section class="panel card" id="original">
+      <h2>Original visualization</h2>
+      <figure>
+        <img src="images/original.png" alt="OECD Better Life Index: flowers for 38 countries arranged from lowest to highest score, with weight sliders on the left">
+        <figcaption>
+          Figure 1. “Create your Better Life Index”, OECD Well-being Data Monitor.
+          <a href="https://www.oecd.org/en/data/tools/well-being-data-monitor/better-life-index.html">oecd.org/en/data/tools/well-being-data-monitor/better-life-index.html</a>
+        </figcaption>
+      </figure>
+      <p>The OECD Better Life Index compares well-being in the 38 OECD member countries across eleven dimensions: housing, income and wealth, work and job quality, social connections, knowledge and skills, environmental quality, civic engagement, health, subjective well-being, safety, and work-life balance. Each country is drawn as a flower. Its height on the vertical axis is the country’s index under the reader’s own weights, and each coloured petal is the country’s score on one dimension. Sliders on the left set the importance of each dimension from 0 to 10, and a menu sorts countries by performance.</p>
+      <p>The data behind the index come from the OECD Well-being Database, which reports national indicators for each dimension from surveys and official statistics.</p>
+    </section>
+
+    <section class="panel card" id="redesign">
+      <h2>Redesigned visualization</h2>
+      <p>Each column is one country. The dark dot is the weighted score from the sliders. Click a dimension name to select it: the bars switch to that indicator in its real units, and countries reorder from better to worse. Click a country to open its eleven-dimension profile below. Hover a mark for values.</p>
+      <div class="app">
+        <aside class="panel" id="controls"></aside>
+        <div class="chart-stack panel">
+          <section class="chart-panel">
+            <div id="chart"></div>
+          </section>
+          <div class="profile-panel">
+            <p id="profile-hint"></p>
+            <div id="profile-chart"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel card" id="sources">
+      <h2>Data source and references</h2>
+      <p>The redesign reads <code>data/bli-headline.csv</code>, built by <code>scripts/prepare_data.py</code> from the OECD Well-being Database. It keeps one headline indicator per dimension, the latest total-population value, and the 29 countries that report all eleven.</p>
+      <ul class="refs">
+        <li>OECD. <em>Create your Better Life Index</em>. OECD Well-being Data Monitor. <a href="https://www.oecd.org/en/data/tools/well-being-data-monitor/better-life-index.html">https://www.oecd.org/en/data/tools/well-being-data-monitor/better-life-index.html</a></li>
+        <li>OECD. <em>Current well-being</em>, OECD Well-being Database, dataflow <code>OECD.WISE.WDP,DSD_HSL@DF_HSL_CWB</code>. <a href="https://sdmx.oecd.org/public/rest/data/OECD.WISE.WDP,DSD_HSL@DF_HSL_CWB/all?format=csvfilewithlabels">SDMX CSV download</a></li>
+        <li>OECD. <em>OECD Well-being Database: Definitions and metadata</em>. <a href="https://www.oecd.org/content/dam/oecd/en/topics/policy-sub-issues/measuring-well-being-and-progress/oecd-well-being-database-definitions.pdf">PDF</a></li>
+        <li>Cleveland, W. S., &amp; McGill, R. (1984). Graphical perception: Theory, experimentation, and application to the development of graphical methods. <em>Journal of the American Statistical Association, 79</em>(387), 531–554.</li>
+        <li>Bostock, M. D3.js, version 7. <a href="https://d3js.org">https://d3js.org</a></li>
+      </ul>
+    </section>
+
+    <section class="panel card" id="report">
+      <h2>Visualization critique and redesign report</h2>
+
+      <h3>Original visualization and context</h3>
+      <p>The OECD’s “Create your Better Life Index” (Figure 1) ranks the 38 OECD members on well-being. Countries are placed left to right; each is a flower whose height is its index and whose eleven petals, one colour per dimension, show its score on housing, income, jobs, community, education, environment, civic engagement, health, life satisfaction, safety and work-life balance. Readers weight each dimension from 0 to 10 with sliders. The message is that well-being has many parts, and which country looks best depends on what the reader values. The audience is the general public rather than analysts. The tasks are to set weights, rank countries and find the extremes, compare countries on one dimension, and see where a single country is strong or weak.</p>
+
+      <h3>Critique</h3>
+      <p><strong>Strength 1.</strong> The overall ranking uses position on a common scale. Countries are sorted, each flower sits on a vertical drop line, and the rising curve shows at once that Mexico and Colombia score low and Norway, Switzerland and Iceland high.</p>
+      <p><strong>Strength 2.</strong> Controls and marks share one colour code. Each slider is labelled with an icon in its petal’s colour, and moving it moves the flowers immediately, so the personalisation task gets direct feedback.</p>
+      <p><strong>Weakness 1: one dimension cannot be compared across countries.</strong> Petals radiate at different angles from centres at different heights, with no common baseline. To compare safety, a reader must find the grey petal in 38 flowers and judge unaligned lengths, which people estimate far less accurately than positions or aligned lengths (Cleveland and McGill 1984). Comparing a dimension is a core task, so it should use aligned bars.</p>
+      <p><strong>Weakness 2: the glyph is overloaded and overlaps.</strong> The flower marks the overall score and carries eleven petals around it. Where scores are close, as in the upper right, neighbouring flowers overlap, hiding both the exact height and the petals. Country names hang just below each flower, so they follow the curve instead of a shared line, and the vertical axis has no title. The score should be a plain mark, with labels on one baseline.</p>
+      <p><strong>Weakness 3: eleven hues at once.</strong> Hue suits categories, but only about seven to ten can be told apart reliably, and several here are close, such as the two greens or the reds for social connections and work-life balance. With every petal coloured, colour becomes texture rather than information. Only the dimension being examined needs colour.</p>
+
+      <h3>Redesign rationale</h3>
+      <p><strong>Decision 1: the flower becomes a dot.</strong> Each country’s weighted score is a single dark dot on a 0–10 axis. Position is the most accurate channel for magnitude, and a dot does not cover its neighbours. This addresses Weakness 2: order and gaps can be read without occlusion, and country names sit on one line below the dots.</p>
+      <p><strong>Decision 2: one selected dimension as aligned bars in real units.</strong> Clicking a dimension name selects it, switches the bars to that indicator’s raw units, and sorts countries from better to worse. Lower-is-better series such as housing-cost overburden flip the axis so taller still means better. This addresses Weakness 1: “which country feels safest?” is a row of bars with a titled axis, not unaligned petals.</p>
+      <p><strong>Decision 3: one hue at a time, and a country’s profile on demand.</strong> Bars take the colour of the selected dimension; dots stay neutral. Clicking a country opens eleven horizontal bars on a shared 0–1 scale, so the full profile is available without colouring every petal at once. This addresses Weakness 3.</p>
+
+      <h3>Original versus redesign</h3>
+      <p>After the redesign it is easier to compare every country on one dimension in that indicator’s units, rank countries by that dimension, and inspect one country’s eleven scores without leaving the page. Tooltips still give each bar’s raw value, unit and year. The axis for a dimension spans these 29 countries rather than a universal 0–1 index, so gaps stay readable; it therefore does not always start at zero. The data still differ from the OECD tool. Each dimension uses one headline indicator, with long hours in paid work standing in for work-life balance. Colombia, Türkiye, Israel, Costa Rica, the United States, Chile, Japan, Korea and New Zealand are missing, indicator years differ, and weighted dots can still cluster because they are averages.</p>
+
+      <figure>
+        <img src="images/redesign.png" alt="Redesigned view: weight sliders on the left, and for each country a dark dot for the weighted score above a coloured bar for the selected dimension">
+        <figcaption>Figure 2. An earlier state of the redesign, before bars used real units and the country profile was added.</figcaption>
+      </figure>
+    </section>
+  </div>
+  <div id="tooltip"></div>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="js/main-v2.js"></script>
+</body>
+</html>
